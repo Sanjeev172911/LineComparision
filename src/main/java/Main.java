@@ -29,5 +29,7 @@ public class Main {
 
         if(isSameLine) System.out.println("Both the lines are same");
         else System.out.println("Lines are not same");
+
+        line1.compareLine(line2);
     }
 }

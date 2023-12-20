@@ -14,4 +14,10 @@ public class Line {
         else return false;
     }
 
+    public void compareLine(Line line2){
+        if(this.length==line2.length) System.out.println("Both Lines are Equal in length");
+        else if(this.length>line2.length) System.out.println("Length of 1st line is Greater than other line");
+        else System.out.println("Length of 1st line is smaller than other line");
+    }
+
 }
